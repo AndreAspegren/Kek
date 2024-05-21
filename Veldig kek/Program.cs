@@ -22,6 +22,13 @@ namespace nestenHelg
             new Student("John", 30, "Fisker"),
         };
 
+        public List<Student> kekListe = new List<Student>
+        {
+            new Student("Alice", 20, "Økonomi"),
+            new Student("Bob", 25, "Psykologi"),
+            new Student("John", 30, "Fisker"),
+        };
+
         public List<Fag> fagListe = new List<Fag>
         {
             new Fag ( 101, "Math", 10 ),
